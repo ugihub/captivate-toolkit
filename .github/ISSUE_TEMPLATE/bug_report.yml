@@ -1,0 +1,18 @@
+name: Bug report
+description: Report a reproducible problem in Captivate Toolkit
+body:
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Include OS, Python, tool version, FFmpeg, Playwright, and Ruffle versions.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Reproduction
+      description: Provide a command and sanitized logs. Do not upload private EXE, media, or keys.
+    validations:
+      required: true
+
